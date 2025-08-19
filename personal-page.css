@@ -1,19 +1,91 @@
+.topbar-item {
+	top: 10px;
+}
+
+.portrait {
+	position: absolute;
+	left: 10px;
+}
+
+.logo {
+	position: absolute;
+	left: 120px;
+}
+
+.intro-info {
+	display: block;
+	position: absolute;
+	left: 230px;
+	font-size: 28px;
+}
+
+.navbar {
+	position: absolute;
+	right: 140px;
+	top: 10px;
+	font-size: 20px;
+}
+.navbar2 {
+	position: absolute;
+	right: 50px;
+	top: 50px;
+	font-size: 20px;
+}
+
+.hex-background {
+	position: absolute;
+	width: 100%;
+	height: 120px;
+	top: 0px;
+	left: 0px;
+	background-color: #70c27f;
+	background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23459063' fill-opacity='0.32' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.content {
+	margin-top: 120px;
+	margin-left: 10%;
+	margin-right: 10%;
+	height: 100%;
+}
+
+.showcase-item {
+	width: 100%;
+	max-width: 100%;
+	height: 100%;
+	max-height: 100%;
+	margin: 0.5%;
+	padding: 0.5%;
+	background-color: lightgray;
+	border: 2px solid gray;
+}
+
+.item-title {
+	font-size:20px;
+}
+
+li {
+	display: inline;
+}
+
 body {
-    background-color: lightblue;
+	background-color: whitesmoke;
 }
   
 h1 {
-    color: white;
-    text-align: center;
+	color: black;
+	text-align: center;
 }
   
 .h1-first {
-    color: white;
-    text-align: center;
-    font-size: 60px;
+	display: inline;
+	color: black;
+	text-align: left;
+	font-size: 40px;
+	vertical-align: center;
 }
 
 p {
-    font-family: verdana;
-    font-size: 20px;
+	font-family: verdana;
+	font-size: 16px;
 }
